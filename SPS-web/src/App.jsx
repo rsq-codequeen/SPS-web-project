@@ -1,8 +1,12 @@
 import React from 'react';
-import Navbar from './components/navbar'
+import Hero from './components/home/hero';
+import Section2 from './components/home/section2';
 function App() {
   return (
-   <Navbar/>
+    <>
+   <Hero/>
+   <Section2/>
+   </>
   )
 }
 
