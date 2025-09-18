@@ -3,7 +3,7 @@ import Startup from './sections/startup';
 function App() {
   return (
     <>
-      <Startup/>
+      
  
    </>
   )
