@@ -1,10 +1,10 @@
 import React from 'react';
-// import Home_hero from './Sections/Home_hero';
+import Startup from './sections/startup';
 
 function App() {
   return (
     <>
-      {/* <Home_hero /> */}
+      <Startup />
     </>
   )
 }
