@@ -3,7 +3,7 @@ import { newsData } from '../data/NewsData';
 
 const NewsAndBlog = () => {
     return (
-        <div className="py-16 px-4 bg-blue-50">
+        <div className="py-16 px-4 ">
             <div className="max-w-6xl mx-auto">
                 {/* Section Title */}
                 <div className="text-center mb-12">

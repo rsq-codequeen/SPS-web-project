@@ -6,6 +6,8 @@ import TechPartners from './sections/TechPartners';
 import Applications from './Components/Applications';
 import NewsAndBlog from './Components/NewsAndBlog';
 import Footer from './Components/Footer';
+import SPSVerticals from './sections/SPSVerticals'
+import Awards from './sections/Awards';
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,8 @@ function App() {
     <Startup/>
     <Applications/>
     <TechPartners/>
+    <SPSVerticals/>
+    <Awards/>
     <NewsAndBlog/>
     <Footer/>
     </div>
