@@ -4,6 +4,7 @@ import MaindomaisSection from './sections/MainDomainSection'
 import Startup from './sections/startup'
 import TechPartners from './sections/TechPartners';
 import Applications from './Components/Applications';
+import NewsAndBlog from './Components/NewsAndBlog';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
     <Startup/>
     <Applications/>
     <TechPartners/>
+    <NewsAndBlog/>
     </div>
   )
 }
