@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DomainsInfo from '../components/domainsInfo'; // The content component
 import ButtonsBg from './buttonsbg'; // The buttons component
 import data from '../data/domainsdata';

@@ -1,10 +1,7 @@
 import React from 'react';
-import Startup from './sections/startup';
 import HomeHero from './sections/Home_hero'
-import WhatIf from './sections/WhatIf';
-import Buttonsbg from './sections/buttonsbg';
-import DomainsInfo from './components/domainsInfo'
-import MaindomaisSection from './sections/MainDomainSection';
+import MaindomaisSection from './sections/MainDomainSection'
+import Startup from './sections/startup'
 function App() {
   return (
     <div className="App">
