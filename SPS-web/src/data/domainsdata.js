@@ -5,6 +5,11 @@ import IdentityAccess from '../assets/cybersecurity/Identity and acess.png'
 import  ThreatManagement from '../assets/cybersecurity/Threat Management.png'
 import Devops from '../assets/Cloud/DevOps.png'
 import Migration from '../assets/Cloud/Migration Services.png'
+import DataScience from '../assets/AIandAutomation/DataScience.png'
+import Automation from '../assets/AIandAutomation/Automation.png'
+import Learning from '../assets/Collaboration/learning.png'
+import Events from '../assets/Collaboration/Events.png'
+
 const data=[
     ['Cyber Security',
     {
@@ -55,8 +60,43 @@ const data=[
             'Migrate IBM Power to Cloud'
         ]
     }
-
 ],
+    [
+        'AI & Automation',
+    {
+        imgsrc:DataScience,
+        title:'Data Science',
+        li:['Generative AI',
+            'Internet of Things',
+            'Data Analytics'
+        ]
+        
+    },{
+        imgsrc:Automation,
+        title:'Automation',
+        li:['Business Process Modeling Using ARIS',
+            'Business Process Automation using web methods',
+            'Code Application Development Using Appi'
+        ]
+    }
+    ],
+     [
+        'Collaboration',
+    {
+        imgsrc:Learning,
+        title:'Learning',
+        li:[
+        ]
+        
+    },{
+        imgsrc:Events,
+        title:'Events',
+        li:['Events Services',
+            'Virtual Platform Training',
+            'Recording & Editing'
+        ]
+    }
+    ]
 
 ]
 export default data

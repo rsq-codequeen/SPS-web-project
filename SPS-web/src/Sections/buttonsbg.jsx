@@ -15,7 +15,7 @@ const ButtonsBg = ({ data, activeDomain, onDomainClick }) => {
                         className={`
                             px-12 py-2 flex rounded-lg font-semibold transition-colors duration-300
                             ${activeDomain === categoryName
-                                ? 'bg-gradient-to-r from-[#2F80E8] to-[#2F80E8] text-white'
+                                ? 'bg-gradient-to-r from-[#2F80E8] via-[#2F80E8] to-white text-white'
                                 : 'bg-gray-200 text-gray-800'
                             }
                         `}
