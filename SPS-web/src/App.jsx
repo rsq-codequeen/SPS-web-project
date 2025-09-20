@@ -4,16 +4,18 @@ import MaindomaisSection from './sections/MainDomainSection'
 import Startup from './sections/startup'
 import TechPartners from './sections/TechPartners';
 import Applications from './Components/Applications';
-import SPSVerticals from './sections/SPSVerticals';
+import NewsAndBlog from './Components/NewsAndBlog';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-        <HomeHero />
-        <MaindomaisSection/>
-        <Startup/>
-        <Applications/>
-        <TechPartners/>
-        <SPSVerticals/>
+    <HomeHero />
+    <MaindomaisSection/>
+    <Startup/>
+    <Applications/>
+    <TechPartners/>
+    <NewsAndBlog/>
+    <Footer/>
     </div>
   )
 }
