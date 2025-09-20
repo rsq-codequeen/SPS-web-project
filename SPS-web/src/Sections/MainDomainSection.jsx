@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import DomainsInfo from '../components/domainsInfo'; // The content component
+import DomainsInfo from '../Components/domainsInfo'; // The content component
+import BestPractices from '../Components/BestPractices'; // The best practices component
 import ButtonsBg from './buttonsbg'; // The buttons component
 import data from '../data/domainsdata';
 
@@ -23,6 +24,11 @@ const MainDomainSection = () => {
             {/* 4. Pass the active state to the content component */}
             <DomainsInfo 
                 data={data} 
+                activeDomain={activeDomain} 
+            />
+            
+            {/* 5. Pass the active state to the best practices component */}
+            <BestPractices 
                 activeDomain={activeDomain} 
             />
         </div>
