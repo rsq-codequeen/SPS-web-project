@@ -2,14 +2,14 @@
 
 const WhatIf = () => {
   return (
-    <div className="bg-blue-50 py-4 sm:py-6 md:py-8 lg:py-10">
+    <div className="bg-blue-50 py-8 sm:py-9 md:py-10 lg:py-12">
       <div className="w-full px-0">
         {/* Main Content Boxes */}
-        <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12 mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="flex flex-col lg:flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 mb-4 sm:mb-5 md:mb-6 lg:mb-8">
           
           {/* Left Box - "What if" */}
           <div className="w-full lg:w-[25%] flex justify-center ml-2 sm:ml-3 md:ml-4 lg:ml-6 xl:ml-8">
-            <div className="bg-gradient-to-b from-blue-400 to-blue-700 rounded-xl sm:rounded-2xl md:rounded-3xl p-6  w-full h-64 sm:h-72 md:h-80  flex flex-col items-center justify-center">
+            <div className="bg-gradient-to-b from-blue-400 to-blue-700 rounded-xl sm:rounded-2xl md:rounded-3xl p-4  w-full h-64 sm:h-68 md:h-72  flex flex-col items-center justify-center">
               <div className="text-white text-center">
                 <div className="text-6xl  font-bold mb-4 sm:mb-6 md:mb-8">
                   ?
@@ -23,25 +23,25 @@ const WhatIf = () => {
 
           {/* Right Box - Benefits List */}
           <div className="w-full lg:w-[75%] flex justify-center mr-2 sm:mr-3 md:mr-4 lg:mr-6 xl:mr-8">
-            <div className="bg-gradient-to-b from-blue-400 to-blue-900 rounded-xl sm:rounded-2xl md:rounded-3xl p-6 w-full h-64 sm:h-72 md:h-80  ">
-              <ul className="space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6">
-                <li className="text-white text-lg  font-medium flex items-start">
+            <div className="bg-gradient-to-b from-blue-400 to-blue-900 rounded-xl sm:rounded-2xl md:rounded-3xl p-4 w-full h-64 sm:h-68 md:h-72  ">
+              <ul className="space-y-1 sm:space-y-2 md:space-y-2 lg:space-y-3">
+                <li className="text-white text-sm sm:text-base font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could enhance your Identity Management
                 </li>
-                <li className="text-white text-lg font-medium flex items-start">
+                <li className="text-white text-sm sm:text-base font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could modernize your legacy enterprise information systems
                 </li>
-                <li className="text-white text-lg font-medium flex items-start">
+                <li className="text-white text-sm sm:text-base font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could have Security Operations Center 24x7
                 </li>
-                <li className="text-white text-lg font-medium flex items-start">
+                <li className="text-white text-sm sm:text-base font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could have your Cyber Security environment managed for you.
                 </li>
-                <li className="text-white text-lg font-medium flex items-start">
+                <li className="text-white text-sm sm:text-base font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could have Compliance Artifacts for your Auditors at click of a button
                 </li>
