@@ -7,7 +7,7 @@ const Home_hero = () => {
   return (
     <>
       <div 
-        className="relative w-full h-[80vh] overflow-hidden"
+        className="relative w-full h-[50vh] overflow-hidden"
         style={{
           backgroundImage: `url(${heroimg})`,
           backgroundSize: 'cover',
@@ -25,7 +25,7 @@ const Home_hero = () => {
             {/* Main Text Box */}
             <div className="bg-black/10 backdrop-blur-sm border border-white/100 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 ">
               <div className="text-center space-y-2 sm:space-y-3 md:space-y-4 lg:space-y-5">
-                <h1 className="text-lg sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-white leading-tight">
+                <h1 className="text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-white leading-tight">
                   We are an IT Solutions Provider focused on Solving Business Problems leveraging AI, Cloud, Automation & Cybersecurity
                 </h1>
       
