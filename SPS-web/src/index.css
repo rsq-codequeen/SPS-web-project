@@ -1,5 +1,13 @@
 @import "tailwindcss";
 @theme {
-  
+  --color-darkblue:#002EA4
   --color-grey:#d9d9d9
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.scrollbar-hide {
+    scrollbar-width: none;
 }
