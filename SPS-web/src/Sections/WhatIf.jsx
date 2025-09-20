@@ -25,23 +25,23 @@ const WhatIf = () => {
           <div className="w-full lg:w-[75%] flex justify-center mr-2 sm:mr-3 md:mr-4 lg:mr-6 xl:mr-8">
             <div className="bg-gradient-to-b from-blue-400 to-blue-900 rounded-xl sm:rounded-2xl md:rounded-3xl p-4 w-full h-64 sm:h-68 md:h-72  ">
               <ul className="space-y-1 sm:space-y-2 md:space-y-2 lg:space-y-3">
-                <li className="text-white text-sm sm:text-base font-medium flex items-start">
+                <li className="text-white text-base sm:text-lg font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could enhance your Identity Management
                 </li>
-                <li className="text-white text-sm sm:text-base font-medium flex items-start">
+                <li className="text-white text-base sm:text-lg font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could modernize your legacy enterprise information systems
                 </li>
-                <li className="text-white text-sm sm:text-base font-medium flex items-start">
+                <li className="text-white text-base sm:text-lg font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could have Security Operations Center 24x7
                 </li>
-                <li className="text-white text-sm sm:text-base font-medium flex items-start">
+                <li className="text-white text-base sm:text-lg font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could have your Cyber Security environment managed for you.
                 </li>
-                <li className="text-white text-sm sm:text-base font-medium flex items-start">
+                <li className="text-white text-base sm:text-lg font-medium flex items-start">
                   <span className="text-blue-300 mr-3 mt-1 ">•</span>
                   You could have Compliance Artifacts for your Auditors at click of a button
                 </li>
