@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Components/Navbar';
 import HomeHero from './sections/Home_hero'
 import MaindomaisSection from './sections/MainDomainSection'
 import Startup from './sections/startup'
@@ -9,6 +10,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
+    <Navbar/>
     <HomeHero />
     <MaindomaisSection/>
     <Startup/>
