@@ -41,7 +41,7 @@ const SPSVerticals = () => {
 
         <button 
           onClick={prevSlide}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 bg-white rounded-full p-3 shadow-md hover:bg-gray-100 focus:outline-none z-10"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 bg-white py-10 rounded-lg border-2 border-blue-800  shadow-md hover:bg-gray-100 focus:outline-none z-10"
           aria-label="Previous cards"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 text-gray-700">
@@ -51,7 +51,7 @@ const SPSVerticals = () => {
 
         <button 
           onClick={nextSlide}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 bg-white rounded-full p-3 shadow-md hover:bg-gray-100 focus:outline-none z-10"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 bg-white py-10 rounded-lg border-2 border-blue-800  shadow-md hover:bg-gray-100 focus:outline-none z-10"
           aria-label="Next cards"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 text-gray-700">

@@ -8,7 +8,7 @@ import MYID from "../assets/StartUps/MYID Self Verify.png";
 const startup = () => {
   return (
     <>
-      <div className="relative w-full min-h-screen  p-6 md:p-9 bg-[#00123E] overflow-hidden">
+      <div className="relative w-full min-h-screen  p-6 md:p-9 bg-[#00123E] ">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row text-left text-white m-4 md:m-10 gap-8 md:gap-16 items-center">
           <div className="flex flex-col gap-4">

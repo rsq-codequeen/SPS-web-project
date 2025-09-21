@@ -11,16 +11,16 @@ const BestPractices = ({ activeDomain }) => {
     const { heading, practices } = activeDomainData[1];
 
     return (
-        <div className="py-12 px-8">
+        <div className="pb-8 px-8 ">
             <div className="text-center mb-8">
                 <h2 className="text-2xl font-bold text-[#002EA4] mb-2">{heading}</h2>
             </div>
             
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-6 ">
                 {practices.map((practice, index) => (
                     <div
                         key={index}
-                        className="flex items-center space-x-4 bg-white rounded-full shadow-lg p-6 min-w-[400px] max-w-[500px]"
+                        className="flex items-center space-x-4 bg-white rounded-full shadow-lg p-2  min-w-[400px] max-w-[450px]"
                     >
                         <div 
                             className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl"
@@ -35,7 +35,7 @@ const BestPractices = ({ activeDomain }) => {
                             <div className="mb-2">
                                 <h3 className="text-lg font-bold text-[#002EA4]">{practice.title}</h3>
                             </div>
-                            <p className="text-gray-700 text-sm">{practice.description}</p>
+                            <p className="text-gray-700 text-sm p-2">{practice.description}</p>
                         </div>
                     </div>
                 ))}
