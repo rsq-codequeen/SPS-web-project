@@ -1,14 +1,14 @@
 import NetworkSecurity from '../assets/cybersecurity/networksecurity.webp'
 import SMaas from '../assets/cybersecurity/SMaas.webp'
 import GRC from '../assets/cybersecurity/GRC.webp'
-import IdentityAccess from '../assets/cybersecurity/Identity and acess.png'
-import  ThreatManagement from '../assets/cybersecurity/Threat Management.png'
-import Devops from '../assets/Cloud/DevOps.png'
-import Migration from '../assets/Cloud/Migration Services.png'
-import DataScience from '../assets/AIandAutomation/DataScience.png'
-import Automation from '../assets/AIandAutomation/Automation.png'
-import Learning from '../assets/Collaboration/learning.png'
-import Events from '../assets/Collaboration/Events.png'
+import IdentityAccess from '../assets/cybersecurity/Identity and acess.webp'
+import  ThreatManagement from '../assets/cybersecurity/Threat Management.webp'
+import Devops from '../assets/Cloud/DevOps.webp'
+import Migration from '../assets/Cloud/Migration Services.webp'
+import DataScience from '../assets/AIandAutomation/DataScience.webp'
+import Automation from '../assets/AIandAutomation/Automation.webp'
+import Learning from '../assets/Collaboration/learning.webp'
+import Events from '../assets/Collaboration/Events.webp'
 
 const data=[
     ['Cyber Security',

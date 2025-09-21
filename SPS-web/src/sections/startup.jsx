@@ -1,9 +1,9 @@
 import React from "react";
 import StartUp from "../assets/StartUps/StartUp.webp";
-import Azalio from "../assets/StartUps/Azalio.png";
-import BMS from "../assets/StartUps/BMS.png";
-import CSM from "../assets/StartUps/CSM.png";
-import MYID from "../assets/StartUps/MYID Self Verify.png";
+import Azalio from "../assets/StartUps/Azalio.webp";
+import BMS from "../assets/StartUps/BMS.webp";
+import CSM from "../assets/StartUps/CSM.webp";
+import MYID from "../assets/StartUps/MYID Self Verify.webp";
 
 const startup = () => {
   return (

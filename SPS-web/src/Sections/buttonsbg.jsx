@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonsBgImg from "../assets/buttonsbg/buttonsbg.png";
+import ButtonsBgImg from "../assets/buttonsbg/buttonsbg.webp";
 
 const ButtonsBg = ({ data, activeDomain, onDomainClick }) => {
     return (

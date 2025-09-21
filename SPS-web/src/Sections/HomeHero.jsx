@@ -1,5 +1,5 @@
 'use client'
-import heroimg from '../assets/heroimg.png'
+import heroimg from '../assets/heroimg.webp'
 import WhatIf from './WhatIf'
 
 const HomeHero = () => {
