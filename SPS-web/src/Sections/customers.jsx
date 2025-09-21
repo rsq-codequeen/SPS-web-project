@@ -47,7 +47,7 @@ const customers = () => {
     <>
     <h5 className='text-blue-900 text-2xl font-bold text-center'>Customers we are proud to work with</h5>
     <p className='text-center'>Our mission is to deliver compelling narratives, remarkable experiences, and outstanding results for our clients.</p>
-    <section class="grid grid-cols-4 gap-6 p-8 max-w-3xl mx-auto">
+    <section className="grid grid-cols-4 gap-6 p-8 max-w-3xl mx-auto">
        
        {customerLogos.map((image)=>(
         <CustomersImages
