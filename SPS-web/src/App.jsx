@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import StartUpSkeleton from './components/StartUpSkeleton';
 
 // Use React.lazy() for all sections you want to lazy-load
-const HomeHero = lazy(() => import('./sections/Home_hero'));
+const HomeHero = lazy(() => import('./sections/HomeHero'));
 const MaindomaisSection = lazy(() => import('./sections/MainDomainSection'));
 const Startup = lazy(() => import('./sections/startup'));
 const Applications = lazy(() => import('./components/Applications'));

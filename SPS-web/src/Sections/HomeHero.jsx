@@ -2,7 +2,7 @@
 import heroimg from '../assets/heroimg.png'
 import WhatIf from './WhatIf'
 
-const Home_hero = () => {
+const HomeHero = () => {
 
   return (
     <>
@@ -46,4 +46,4 @@ const Home_hero = () => {
   )
 }
 
-export default Home_hero
+export default HomeHero
