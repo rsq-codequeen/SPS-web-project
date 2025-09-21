@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Buttons = ({ children, categoryName, activeCategory, onClick }) => {
+const Buttons = ({ children, categoryName, activeCategorys, onClick }) => {
   // Determine if this button is the active one by comparing the passed props
-  const isActive = categoryName === activeCategory;
+  const isActive = categoryName === activeCategorys;
 
   // Use a template literal to conditionally apply a class for the active state
   const buttonClasses = `
